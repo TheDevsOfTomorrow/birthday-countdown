@@ -5,6 +5,8 @@ import './App.css';
 // Access all components from `muicss/react` module
 import { Appbar, Button, Col, Container, Divider, Form, Input, Panel, Row } from 'muicss/react';
 
+import moment from 'moment'
+
 class App extends Component {
   render() {
     return (
@@ -18,7 +20,7 @@ class App extends Component {
                <Row>
                   <Input value="08/04/1961" />
                   <Input value="Barack Obama" />
-                  <Input value="Age" />
+                  <Input value={parseInt(moment('1961-08-04').fromNow() )} />
                   <Input value="Next Birthday in ..." />
                </Row>
             </Form>
