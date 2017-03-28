@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/TheDevsOfTomorrow/birthday-countdown.png?label=ready&title=Ready)](https://waffle.io/TheDevsOfTomorrow/birthday-countdown)
 # DOT Birthday Countdown
 
 The purpose of this project is to help members of DOT establish their skills by co-creating on a birthday countdown of significant figures.
